@@ -2,8 +2,7 @@
 pragma solidity ^0.7.3;
 
 contract CleverERC20{
-
-    string public name;
+string public name;
     string public symbol;
     uint8 public decimals;
     uint256 public totalSupply;
@@ -54,5 +53,6 @@ contract CleverERC20{
     function allowance(address _owner, address _spender) public view returns (uint256) {
         return _allowances[_owner][_spender];
     }
+
 
 }
