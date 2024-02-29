@@ -32,5 +32,5 @@ contract("ERC20", accounts => {
     assert.equal(finalBalanceReceiver.toString(), amount.toString(), "Incorrect receiver balance after transfer");
   });
 
-  // Add more test cases for other functionalities like allowance, transferFrom, etc.
+ //done
 });
