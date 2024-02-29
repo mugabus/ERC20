@@ -13,8 +13,8 @@ contract("ERC20", accounts => {
     const decimals = await erc20Instance.decimals();
     const totalSupply = await erc20Instance.totalSupply();
 
-    assert.equal(name, "Test Token", "Incorrect token name");
-    assert.equal(symbol, "TST", "Incorrect token symbol");
+    assert.equal(name, "clevertoken", "Incorrect token name");
+    assert.equal(symbol, "CT", "Incorrect token symbol");
     assert.equal(decimals, 18, "Incorrect token decimals");
     assert.equal(totalSupply, web3.utils.toWei("1000"), "Incorrect total supply");
   });
